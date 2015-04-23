@@ -3,13 +3,17 @@
 Document Template
 ==========
 
-To create your own repository using this repository as a template, execute the following commands from a command line:
-   * git clone --depth 1 --origin source document-template new-document
-   * cd new-document
-   * git create new-document
+To create your own repository using this repository as a template, do the following:
+   * Create the new repository (e.g., `my-repo`) as per https://help.github.com/articles/creating-a-new-repository
+   * Clone the template repository and mirror it into the new repository:
+```
+git clone https://github.com/opengeospatial/document-template.git
+cd document-template
+git push --mirror https://github.com/youruserid/my-repo.git
+```
 
-For more information on how this works, see http://kevinthompson.info/blog/2013/11/11/using-git-repos-as-project-templates.html
-   
+For more information, see https://help.github.com/articles/duplicating-a-repository/.
+
 About
 -----
 
